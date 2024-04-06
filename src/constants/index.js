@@ -1,4 +1,5 @@
 import {
+  zoom,
   blog,
   sorting,
   chitchat,
@@ -24,6 +25,7 @@ import {
   jquery,
   newapp,
   dancesite,
+  apple,
 } from "../assets";
 
 export const navLinks = [
@@ -220,6 +222,49 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Meetify: Meeting App",
+    description:
+      "Meetify is a video meeting app designed to streamline your virtual communication needs. With seamless integration of Next.js, React Video SDK, and Clerk authentication and all video conferencing requirements.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Steam",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zoom,
+    source_code_link: "https://github.com/hunterhr58063/Video-Meeting-App",
+  },
+  {
+    name: "Apple Website",
+    description:
+      "digital destination for daily news spanning sports, politics, tech, and more. Seamlessly browse, engage, and stay ahead with our intuitive platform, delivering fresh updates and diverse perspectives at your fingertips.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: apple,
+    source_code_link:
+      "https://github.com/hunterhr58063/Apple-website-Using-React.js-Three.js-and-GSAP",
+  },
   {
     name: "News Application",
     description:

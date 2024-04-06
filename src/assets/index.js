@@ -35,8 +35,12 @@ import dancesite from "./dancesite.png";
 import chitchat from "./chit-chat.png";
 import sorting from "./sorting.png";
 import blog from "./blog.png";
+import apple from "./apple.png";
+import zoom from "./zoom.png";
 
 export {
+  zoom,
+  apple,
   blog,
   sorting,
   chitchat,
