@@ -240,6 +240,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    domain_link: "https://meetify-two.vercel.app",
     image: zoom,
     source_code_link: "https://github.com/hunterhr58063/Video-Meeting-App",
   },
@@ -261,6 +262,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    domain_link: "iphone-website-with-gsap-and-three-js.vercel.app",
     image: apple,
     source_code_link:
       "https://github.com/hunterhr58063/Apple-website-Using-React.js-Three.js-and-GSAP",
@@ -296,93 +298,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+
     image: blog,
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Social Application",
-    description:
-      "This application enables user interactions, providing straightforward authentication, seamless account creation, effortless posting, liking, and commenting functionalities for users.",
-    tags: [
-      {
-        name: "Node.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "redis",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "passport.js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: blog,
-    source_code_link: "https://github.com/hunterhr58063/social-media-website-",
-  },
-  {
-    name: "Dance Website",
-    description:
-      "An engaging front-end webiste  experience utilizing Ejs, CSS, and HTML to showcase dance events and inspire enthusiasts.",
-    tags: [
-      {
-        name: "Node.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Ejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: dancesite,
-    source_code_link: "https://github.com/hunterhr58063/Dance-Academy-website",
-  },
-  {
-    name: "Chat Room",
-    description:
-      "A real-time communication platform built with Node.js and Socket.io, enabling users to engage in instant messaging.",
-    tags: [
-      {
-        name: "Socket.Io",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: chitchat,
-    source_code_link:
-      "https://github.com/hunterhr58063/ChatRoom-using-socket.io",
-  },
-  {
-    name: "Sorting Algorithms  ",
-    description:
-      "A web application that visually demonstrates various sorting algorithms using HTML, CSS, and JavaScript. ",
-    tags: [
-      {
-        name: "Socket.Io",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: sorting,
-    source_code_link: "https://github.com/hunterhr58063",
   },
 ];
 

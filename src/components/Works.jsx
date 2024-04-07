@@ -1,7 +1,7 @@
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, visit } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -13,6 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  domain_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -24,9 +25,22 @@ const ProjectCard = ({
           <img
             src={image}
             alt="image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-contain rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+
+          <div className="absolute inset-0 flex justify-between m-3 card-img_hover">
+            {domain_link && (
+              <div
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                onClick={() => window.open(domain_link, "_blank")}
+              >
+                <img
+                  src={visit}
+                  alt="visit website"
+                  className="w-1/2 h-1/2 object-contain inset-1"
+                />
+              </div>
+            )}
             <div
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(source_code_link, "_blank")}

@@ -37,8 +37,10 @@ import sorting from "./sorting.png";
 import blog from "./blog.png";
 import apple from "./apple.png";
 import zoom from "./zoom.png";
+import visit from "./visitwebsite.png";
 
 export {
+  visit,
   zoom,
   apple,
   blog,
