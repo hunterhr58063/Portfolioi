@@ -26,6 +26,7 @@ import {
   newapp,
   dancesite,
   apple,
+  banking
 } from "../assets";
 
 export const navLinks = [
@@ -147,10 +148,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2023 - present",
     points: [
-      "Developing and maintaining web applications using Next.js, React.js , Node.js ,Nest.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design .",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Full Stack Developer with 1.5 years of experience in creating dynamic web applications using Next.js and React.js, achieving a 30% reduction in load times and enhanced user engagement.",
+      "Skilled in backend solutions with Node.js and Express.js, developing RESTful APIs that improved system response times by 25% and reduced communication latency by 30%.",
+      "Experienced in optimizing data models with MS SQL and MongoDB, enhancing data retrieval efficiency and streamlining operations.",
+      "Proficient in modern CSS frameworks, including shadcn/ui, Tailwind CSS, Bootstrap, and Material UI, resulting in responsive and visually appealing designs.",
+      "Familiar with version control using Git and Bitbucket, and gained deployment experience on Vercel for efficient production releases."
     ],
   },
   // {
@@ -223,9 +225,47 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Meetify: Meeting App",
+    name: "Banking Application",
     description:
-      "Meetify is a video meeting app designed to streamline your virtual communication needs. With seamless integration of Next.js, React Video SDK, and Clerk authentication and all video conferencing requirements.",
+      "Developed a full-featured banking application using Next.js, Appwrite, ShadCN, Plaid, and Dwolla, enabling users to manage bank accounts, transfer funds, and view transaction history.",
+    Features: [
+      "Account management: Connect and manage multiple bank accounts.",
+      "Transactions: Seamlessly transfer funds and view transaction history.",
+      "Secure integrations with Plaid and Dwolla for bank connectivity and payments",
+    ],
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Appwrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Plaid API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Dwolla API",
+        color: "text-red-600",
+      },
+    ],
+
+    domain_link: "https://horizon-banking-application.vercel.app/",
+    image: banking,
+    source_code_link: "https://github.com/hunterhr58063/horizon-bank-App",
+  },
+  {
+    name: "Video Meeting App",
+    description:
+      "Developed Meetify, a next-generation video meeting app built with Next.js, utilizing the React Video SDK for seamless streaming and high-quality conferencing, ensuring an engaging experience during virtual meetings.",
+    Features: [
+      "Real - time communication: Enables smooth and interactive virtual meetings with minimal latency.",
+      "Secure access: Implements Cleak authentication to efficiently manage user access while ensuring privacy and data security.",
+      "Collaborative tools:<br />",
+      "Facilitates seamless collaboration through advanced features that significantly enhance < br />",
+      "user interaction, engagement, and overall productivity during meetings."],
     tags: [
       {
         name: "Next.js",
@@ -239,7 +279,13 @@ const projects = [
         name: "Clerk",
         color: "pink-text-gradient",
       },
+      {
+        name: "React Video SDK",
+        color: "text-red-600",
+      },
+
     ],
+
     domain_link: "https://meetify-two.vercel.app",
     image: zoom,
     source_code_link: "https://github.com/hunterhr58063/Video-Meeting-App",
@@ -248,6 +294,8 @@ const projects = [
     name: "Apple Website",
     description:
       "digital destination for daily news spanning sports, politics, tech, and more. Seamlessly browse, engage, and stay ahead with our intuitive platform, delivering fresh updates and diverse perspectives at your fingertips.",
+    Features: [],
+
     tags: [
       {
         name: "react",
@@ -271,6 +319,8 @@ const projects = [
     name: "News Application",
     description:
       "digital destination for daily news spanning sports, politics, tech, and more. Seamlessly browse, engage, and stay ahead with our intuitive platform, delivering fresh updates and diverse perspectives at your fingertips.",
+    Features: [],
+
     tags: [
       {
         name: "react",
@@ -284,6 +334,8 @@ const projects = [
     name: "Blog Application",
     description:
       "  platform for creating and sharing blog posts. With a clean and user-friendly interface, users can effortlessly publish their thoughts and ideas. Explore a variety of topics and engage with content from fellow users.",
+    Features: [],
+
     tags: [
       {
         name: "Next",

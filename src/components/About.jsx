@@ -35,26 +35,33 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant}>
+      <motion.div variants={textVariant} className="w-full">
         <p className={`${styles.sectionSubText}`}>Introduction</p>
         <h2 className={`${styles.sectionHeadText}`}>Overview.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4
-      text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary  text-[17px] max-w-full leading-[30px] text-left" // Adjusted max-w to full and set text alignment
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript , and expertise in frameworks like Next, React, Node.js
-        ,Nest.js . I'm a quick learner and collaborate closely with clients to
-        create efficient ,scalable, annd user-friendlly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!.
+        Welcome to my portfolio! I am a Full Stack Developer with a passion for creating dynamic web applications. My expertise lies in leveraging modern technologies to deliver high-performance, user-friendly solutions.
+        <br /><br />
+        ● <strong>Frontend Development</strong>: Proficient in <strong>Next.js</strong>, <strong>React.js</strong>, <strong>JavaScript</strong>, and <strong>TypeScript</strong>, I focus on building responsive and engaging user interfaces that enhance the overall user experience.
+        <br />
+        ● <strong>Backend Development</strong>: Skilled in <strong>Node.js</strong> and <strong>Nest.js</strong>, I create robust server-side applications that ensure efficient data processing and seamless integration with front-end components.
+        <br />
+        ● <strong>Database Management</strong>: Experienced in working with <strong>MS SQL</strong> and <strong>MongoDB</strong>, I design and optimize data models to enhance data retrieval and processing efficiency.
+        <br />
+        ● <strong>CSS Frameworks</strong>: Utilizing modern CSS frameworks like <strong>Tailwind CSS</strong>, <strong>Bootstrap</strong>, and <strong>Material UI</strong>, I craft visually appealing and responsive designs.
+        <br /><br />
+        I am a quick learner who collaborates closely with clients to develop efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+
     </>
   );
 };
