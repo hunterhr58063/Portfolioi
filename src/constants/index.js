@@ -28,7 +28,14 @@ import {
   apple,
   banking,
   yotta,
-  codebird
+  codebird,
+  docker,
+  kubernetes,
+  linux,
+  kafka,
+  rabbitmq,
+  microservices,
+  cloudstack
 } from "../assets";
 
 export const navLinks = [
@@ -48,24 +55,104 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Next Developer",
-    icon: backend,
-  },
-  {
-    title: "React Developer",
+    title: "React & Next.js Developer",
     icon: web,
   },
   {
-    title: "Node Developer",
+    title: "Node.js & NestJS Developer",
     icon: backend,
   },
   {
-    title: "Nest Developer",
+    title: "Cloud & Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    title: "Microservices Developer",
     icon: backend,
   },
 ];
 
+
 const technologies = [
+  // Backend
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "NestJS",
+    icon: nestjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+
+  // Frontend
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Next.js",
+    icon: nextjs,
+  },
+
+  // Cloud & DevOps
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Apache CloudStack",
+    icon: cloudstack,
+  },
+  {
+    name: "Linux",
+    icon: linux,
+  },
+
+  // Messaging & Distributed Systems
+  {
+    name: "Kafka",
+    icon: kafka,
+  },
+  {
+    name: "RabbitMQ",
+    icon: rabbitmq,
+  },
+  {
+    name: "Microservices",
+    icon: microservices,
+  },
+
+  // Databases
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "MS SQL",
+    icon: mssql,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+
+  // UI
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -74,73 +161,14 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+
+  // Tools
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
-
-  {
-    name: "jquery",
-    icon: jquery,
-  },
-
-  {
-    name: "nextjs",
-    icon: nextjs,
-  },
-  {
-    name: "nestjs",
-    icon: nestjs,
-  },
-  {
-    name: "mssql",
-    icon: mssql,
-  },
-  {
-    name: "mysql",
-    icon: mysql,
-  },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
+
 
 const experiences = [
   {

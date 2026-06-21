@@ -21,14 +21,21 @@ import mssql from "./tech/mssql.png";
 import mysql from "./tech/mysql.png";
 import nextjs from "./tech/nextjs.png";
 import nestjs from "./tech/nestjs.png";
+import docker from "./tech/docker.png";
+import kubernetes from "./tech/kubernetes.png";
+import cloudstack from "./tech/cloudstack.png";
+import linux from "./tech/linux.png";
+import kafka from "./tech/kafka.png";
+import rabbitmq from "./tech/rabbitmq.png";
+import microservices from "./tech/microservices.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import autovyn from "./company/autovyn.png";
-import codebird from "./company/codebird.jpg";
-import yotta from "./company/yotta.jpg";
+import codebird from "./company/codebird.png";
+import yotta from "./company/yotta.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -81,5 +88,15 @@ export {
   carrent,
   jobit,
   tripguide,
-  banking
+  banking,
+  codebird,
+  yotta,
+  kubernetes,
+  docker,
+  cloudstack,
+  linux,
+  kafka,
+  rabbitmq,
+  microservices,
+  
 };

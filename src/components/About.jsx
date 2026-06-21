@@ -41,20 +41,37 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary  text-[17px] max-w-full leading-[30px] text-left" // Adjusted max-w to full and set text alignment
+        className="mt-4 text-secondary text-[17px] max-w-full leading-[30px] text-left"
+
       >
-        Welcome to my portfolio! I am a Full Stack Developer with a passion for creating dynamic web applications. My expertise lies in leveraging modern technologies to deliver high-performance, user-friendly solutions.
+
+        Welcome to my portfolio! I am a Full Stack Developer with experience building scalable web applications, cloud-native platforms, and distributed systems. I specialize in developing end-to-end solutions ranging from responsive user interfaces to backend microservices and cloud infrastructure.
+
         <br /><br />
-        ● <strong>Frontend Development</strong>: Proficient in <strong>Next.js</strong>, <strong>React.js</strong>, <strong>JavaScript</strong>, and <strong>TypeScript</strong>, I focus on building responsive and engaging user interfaces that enhance the overall user experience.
+
+        ● <strong>Frontend Development</strong>: Experienced in <strong>React.js</strong>, <strong>Next.js</strong>, <strong>JavaScript</strong>, and <strong>TypeScript</strong>, building modern, responsive, and high-performance web applications with a focus on user experience and maintainability.
+
         <br />
-        ● <strong>Backend Development</strong>: Skilled in <strong>Node.js</strong> and <strong>Nest.js</strong>, I create robust server-side applications that ensure efficient data processing and seamless integration with front-end components.
+
+        ● <strong>Backend Development</strong>: Skilled in <strong>Node.js</strong> and <strong>NestJS</strong>, designing RESTful APIs, microservices, and event-driven architectures that power scalable enterprise applications.
+
         <br />
-        ● <strong>Database Management</strong>: Experienced in working with <strong>MS SQL</strong> and <strong>MongoDB</strong>, I design and optimize data models to enhance data retrieval and processing efficiency.
+
+        ● <strong>Cloud & DevOps</strong>: Hands-on experience with <strong>Docker</strong>, <strong>Kubernetes</strong>, Linux, and cloud infrastructure automation, deploying and managing containerized applications in production environments.
+
         <br />
-        ● <strong>CSS Frameworks</strong>: Utilizing modern CSS frameworks like <strong>Tailwind CSS</strong>, <strong>Bootstrap</strong>, and <strong>Material UI</strong>, I craft visually appealing and responsive designs.
+
+        ● <strong>Distributed Systems</strong>: Worked extensively with <strong>Kafka</strong>, <strong>RabbitMQ</strong>, and microservice-based architectures to build reliable, scalable, and fault-tolerant systems.
+
+        <br />
+
+        ● <strong>Database Technologies</strong>: Proficient in <strong>MongoDB</strong>, <strong>MS SQL Server</strong>, and <strong>MySQL</strong>, focusing on efficient data modeling, query optimization, and performance tuning.
+
         <br /><br />
-        I am a quick learner who collaborates closely with clients to develop efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+
+        Currently, I contribute to cloud automation and infrastructure solutions at Yotta Data Services, developing features for enterprise cloud platforms while continuously exploring new technologies and best practices. I enjoy solving complex engineering challenges and building software that creates real business value.
       </motion.p>
+
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
