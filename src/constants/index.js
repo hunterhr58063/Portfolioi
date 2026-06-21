@@ -26,7 +26,9 @@ import {
   newapp,
   dancesite,
   apple,
-  banking
+  banking,
+  yotta,
+  codebird
 } from "../assets";
 
 export const navLinks = [
@@ -143,57 +145,36 @@ const technologies = [
 const experiences = [
   {
     title: "Full Stack Developer",
-    company_name: "Vyn Automation Private Limited",
-    icon: autovyn,
+    company_name: "Yotta Data Services Pvt Ltd",
+    icon: yotta,
     iconBg: "#383E56",
-    date: "June 2023 - present",
+    date: "January 2026 - Present",
     points: [
-      "Full Stack Developer with 1.5 years of experience in creating dynamic web applications using Next.js and React.js, achieving a 30% reduction in load times and enhanced user engagement.",
-      "Skilled in backend solutions with Node.js and Express.js, developing RESTful APIs that improved system response times by 25% and reduced communication latency by 30%.",
-      "Experienced in optimizing data models with MS SQL and MongoDB, enhancing data retrieval efficiency and streamlining operations.",
-      "Proficient in modern CSS frameworks, including shadcn/ui, Tailwind CSS, Bootstrap, and Material UI, resulting in responsive and visually appealing designs.",
-      "Familiar with version control using Git and Bitbucket, and gained deployment experience on Vercel for efficient production releases."
+      "Developing microservices using Node.js, NestJS, Docker, Kubernetes, and Apache CloudStack.",
+      "Building cloud automation and infrastructure provisioning workflows for virtual machine lifecycle management.",
+      "Implementing event-driven communication patterns using Kafka and RabbitMQ across distributed services.",
+      "Containerizing and deploying applications on Kubernetes clusters to improve scalability and deployment consistency.",
+      "Troubleshooting production issues across Linux environments, cloud infrastructure, networking, and distributed systems.",
+      "Collaborating with cross-functional teams to deliver cloud-native features for Apiculus, Yotta's cloud management platform."
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Full Stack & Web3 Developer",
+    company_name: "Codebird Technologies Pvt Ltd",
+    icon: codebird,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - January 2026",
+    points: [
+      "Delivered 10+ production applications using React.js, Next.js, Node.js, Express.js, MongoDB, and MySQL.",
+      "Built scalable web applications serving 1,000+ users across fintech, HRMS, asset management, and business automation domains.",
+      "Reduced API response times by 30% through query optimization, caching strategies, and backend performance improvements.",
+      "Designed RESTful APIs and integrated third-party services including payment gateways, notification systems, and blockchain networks.",
+      "Implemented CI/CD workflows and managed application deployments using Git, Vercel, and Linux-based environments.",
+      "Developed reusable frontend components and responsive user interfaces using Tailwind CSS and Material UI."
+    ],
+  }
+
+
 ];
 
 const testimonials = [
