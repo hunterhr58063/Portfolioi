@@ -27,6 +27,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import autovyn from "./company/autovyn.png";
+import codebird from "./company/codebird.jpg";
+import yotta from "./company/yotta.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
