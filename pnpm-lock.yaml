@@ -13,13 +13,13 @@ importers:
         version: 3.12.1
       '@react-three/drei':
         specifier: ^9.56.24
-        version: 9.101.0(@react-three/fiber@8.15.19)(@types/react@18.2.64)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.149.0)
+        version: 9.101.0(@react-three/fiber@8.15.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0))(@types/react@18.2.64)(@types/three@0.162.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0)
       '@react-three/fiber':
         specifier: ^8.11.1
-        version: 8.15.19(react-dom@18.2.0)(react@18.2.0)(three@0.149.0)
+        version: 8.15.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0)
       framer-motion:
         specifier: ^9.0.7
-        version: 9.1.7(react-dom@18.2.0)(react@18.2.0)
+        version: 9.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       maath:
         specifier: ^0.5.2
         version: 0.5.3(@types/three@0.162.0)(three@0.149.0)
@@ -31,10 +31,13 @@ importers:
         version: 18.2.0(react@18.2.0)
       react-router-dom:
         specifier: ^6.8.1
-        version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+        version: 6.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-tilt:
         specifier: ^0.1.4
-        version: 0.1.4(react-dom@18.2.0)(react@18.2.0)
+        version: 0.1.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react-type-animation:
+        specifier: ^3.2.0
+        version: 3.2.0(prop-types@15.8.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-vertical-timeline-component:
         specifier: ^3.6.0
         version: 3.6.0(react@18.2.0)
@@ -993,6 +996,13 @@ packages:
       react: ^15.0.0 || ^16.0.0-beta || ^16.0.0
       react-dom: ^15.0.0 || ^16.0.0-beta || ^16.0.0
 
+  react-type-animation@3.2.0:
+    resolution: {integrity: sha512-WXTe0i3rRNKjmggPvT5ntye1QBt0ATGbijeW6V3cQe2W0jaMABXXlPPEdtofnS9tM7wSRHchEvI9SUw+0kUohw==}
+    peerDependencies:
+      prop-types: ^15.5.4
+      react: '>= 15.0.0'
+      react-dom: '>= 15.0.0'
+
   react-use-measure@2.1.1:
     resolution: {integrity: sha512-nocZhN26cproIiIduswYpV5y5lQpSQS1y/4KuvUCjSKmw7ZWIS/+g3aFnX3WdBkyuGUtTLif3UTqnLLhbDoQig==}
     peerDependencies:
@@ -1549,24 +1559,24 @@ snapshots:
       '@react-spring/types': 9.6.1
       react: 18.2.0
 
-  '@react-spring/three@9.6.1(@react-three/fiber@8.15.19)(react@18.2.0)(three@0.149.0)':
+  '@react-spring/three@9.6.1(@react-three/fiber@8.15.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0))(react@18.2.0)(three@0.149.0)':
     dependencies:
       '@react-spring/animated': 9.6.1(react@18.2.0)
       '@react-spring/core': 9.6.1(react@18.2.0)
       '@react-spring/shared': 9.6.1(react@18.2.0)
       '@react-spring/types': 9.6.1
-      '@react-three/fiber': 8.15.19(react-dom@18.2.0)(react@18.2.0)(three@0.149.0)
+      '@react-three/fiber': 8.15.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0)
       react: 18.2.0
       three: 0.149.0
 
   '@react-spring/types@9.6.1': {}
 
-  '@react-three/drei@9.101.0(@react-three/fiber@8.15.19)(@types/react@18.2.64)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.149.0)':
+  '@react-three/drei@9.101.0(@react-three/fiber@8.15.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0))(@types/react@18.2.64)(@types/three@0.162.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0)':
     dependencies:
       '@babel/runtime': 7.24.0
       '@mediapipe/tasks-vision': 0.10.8
-      '@react-spring/three': 9.6.1(@react-three/fiber@8.15.19)(react@18.2.0)(three@0.149.0)
-      '@react-three/fiber': 8.15.19(react-dom@18.2.0)(react@18.2.0)(three@0.149.0)
+      '@react-spring/three': 9.6.1(@react-three/fiber@8.15.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0))(react@18.2.0)(three@0.149.0)
+      '@react-three/fiber': 8.15.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0)
       '@use-gesture/react': 10.3.0(react@18.2.0)
       camera-controls: 2.8.3(three@0.149.0)
       cross-env: 7.0.3
@@ -1576,7 +1586,6 @@ snapshots:
       meshline: 3.2.0(three@0.149.0)
       react: 18.2.0
       react-composer: 5.0.3(react@18.2.0)
-      react-dom: 18.2.0(react@18.2.0)
       stats-gl: 2.2.2
       stats.js: 0.17.0
       suspend-react: 0.1.3(react@18.2.0)
@@ -1588,12 +1597,14 @@ snapshots:
       utility-types: 3.11.0
       uuid: 9.0.1
       zustand: 3.7.2(react@18.2.0)
+    optionalDependencies:
+      react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/three'
       - immer
 
-  '@react-three/fiber@8.15.19(react-dom@18.2.0)(react@18.2.0)(three@0.149.0)':
+  '@react-three/fiber@8.15.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.149.0)':
     dependencies:
       '@babel/runtime': 7.24.0
       '@types/react-reconciler': 0.26.7
@@ -1602,13 +1613,14 @@ snapshots:
       buffer: 6.0.3
       its-fine: 1.1.1(react@18.2.0)
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
       react-reconciler: 0.27.0(react@18.2.0)
-      react-use-measure: 2.1.1(react-dom@18.2.0)(react@18.2.0)
+      react-use-measure: 2.1.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       scheduler: 0.21.0
       suspend-react: 0.1.3(react@18.2.0)
       three: 0.149.0
       zustand: 3.7.2(react@18.2.0)
+    optionalDependencies:
+      react-dom: 18.2.0(react@18.2.0)
 
   '@remix-run/router@1.15.3': {}
 
@@ -1869,7 +1881,7 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  framer-motion@9.1.7(react-dom@18.2.0)(react@18.2.0):
+  framer-motion@9.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2052,8 +2064,9 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.35):
     dependencies:
       lilconfig: 3.1.1
-      postcss: 8.4.35
       yaml: 2.4.1
+    optionalDependencies:
+      postcss: 8.4.35
 
   postcss-nested@6.0.1(postcss@8.4.35):
     dependencies:
@@ -2108,7 +2121,7 @@ snapshots:
 
   react-refresh@0.14.0: {}
 
-  react-router-dom@6.22.3(react-dom@18.2.0)(react@18.2.0):
+  react-router-dom@6.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@remix-run/router': 1.15.3
       react: 18.2.0
@@ -2120,12 +2133,18 @@ snapshots:
       '@remix-run/router': 1.15.3
       react: 18.2.0
 
-  react-tilt@0.1.4(react-dom@18.2.0)(react@18.2.0):
+  react-tilt@0.1.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  react-use-measure@2.1.1(react-dom@18.2.0)(react@18.2.0):
+  react-type-animation@3.2.0(prop-types@15.8.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+
+  react-use-measure@2.1.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       debounce: 1.2.1
       react: 18.2.0
@@ -2367,11 +2386,12 @@ snapshots:
   yaml@2.4.1: {}
 
   zustand@3.7.2(react@18.2.0):
-    dependencies:
+    optionalDependencies:
       react: 18.2.0
 
   zustand@4.5.2(@types/react@18.2.64)(react@18.2.0):
     dependencies:
+      use-sync-external-store: 1.2.0(react@18.2.0)
+    optionalDependencies:
       '@types/react': 18.2.64
       react: 18.2.0
-      use-sync-external-store: 1.2.0(react@18.2.0)
