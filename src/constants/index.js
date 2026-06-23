@@ -206,7 +206,7 @@ const projects = [
       },
     ],
 
-    domain_link: "https://horizon-banking-application.vercel.app/",
+    domain_link: "https://horizon-banking-app-pi.vercel.app/",
     image: banking,
     source_code_link: "https://github.com/hunterhr58063/horizon-bank-App",
   },
@@ -264,7 +264,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    domain_link: "iphone-website-with-gsap-and-three-js.vercel.app",
+    domain_link: "https://iphone-website-with-gsap-and-three-js.vercel.app/",
     image: apple,
     source_code_link:
       "https://github.com/hunterhr58063/Apple-website-Using-React.js-Three.js-and-GSAP",
